@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
-
-
 @Getter
 @Setter
 @NoArgsConstructor
@@ -24,9 +22,9 @@ public class Servico {
     private String nomeServico;
     @Column(name = "VALOR_SERVICO")
     private Double valor;
-    @ManyToOne
+    @ManyToOne(targetEntity = Categoria.class)
     @JoinColumn(name = "idCategoria")
-    private Categoria categoria;
+    private List<Categoria> categoria;
     @OneToMany
     private List<OrdemServico> ordemServico;
 }
