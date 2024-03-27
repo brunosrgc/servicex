@@ -1,4 +1,4 @@
-package br.com.brunosrgc.servicex.categoria.respositores;
+package br.com.brunosrgc.servicex.categoria.repositores;
 
 import br.com.brunosrgc.servicex.categoria.domain.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;

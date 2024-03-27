@@ -1,5 +1,6 @@
 package br.com.brunosrgc.servicex.categoria.domain;
 
+import br.com.brunosrgc.servicex.servico.domain.Servico;
 import jakarta.persistence.*;
 import lombok.Data;
 

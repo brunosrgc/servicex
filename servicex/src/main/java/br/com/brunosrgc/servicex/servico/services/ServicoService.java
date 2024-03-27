@@ -1,8 +1,7 @@
-package br.com.brunosrgc.servicex.categoria.services;
+package br.com.brunosrgc.servicex.servico.services;
 
-
-import br.com.brunosrgc.servicex.categoria.domain.Servico;
-import br.com.brunosrgc.servicex.categoria.repositores.ServicoRepository;
+import br.com.brunosrgc.servicex.servico.domain.Servico;
+import br.com.brunosrgc.servicex.servico.repositores.ServicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

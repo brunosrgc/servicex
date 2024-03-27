@@ -1,6 +1,6 @@
-package br.com.brunosrgc.servicex.categoria.repositores;
+package br.com.brunosrgc.servicex.servico.repositores;
 
-import br.com.brunosrgc.servicex.categoria.domain.Servico;
+import br.com.brunosrgc.servicex.servico.domain.Servico;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

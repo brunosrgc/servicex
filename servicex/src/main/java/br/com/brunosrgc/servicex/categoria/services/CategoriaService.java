@@ -1,7 +1,7 @@
 package br.com.brunosrgc.servicex.categoria.services;
 
 import br.com.brunosrgc.servicex.categoria.domain.Categoria;
-import br.com.brunosrgc.servicex.categoria.respositores.CategoriaRepository;
+import br.com.brunosrgc.servicex.categoria.repositores.CategoriaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
