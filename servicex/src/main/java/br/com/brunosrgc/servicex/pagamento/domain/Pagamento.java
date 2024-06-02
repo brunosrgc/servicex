@@ -63,3 +63,5 @@ public abstract class Pagamento {
         return Objects.hash(idPagamento, statusPagamento, ordemServico);
     }
 }
+
+
